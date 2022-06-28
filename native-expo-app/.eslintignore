@@ -1,0 +1,7 @@
+/resources/**
+!.eslintrc.js
+!.eslintrc-staged.js
+/coverage
+/web-build
+/node_modules
+/dist

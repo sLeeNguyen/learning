@@ -1,0 +1,19 @@
+.
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── favicon.png
+│   ├── icon.png
+│   └── splash.png
+├── babel.config.js
+├── node_modules
+    ├── ...
+├── package.json
+├── src
+│   ├── App.tsx
+│   ├── components
+│   ├── hooks
+│   └── screens
+├── tree.txt
+├── tsconfig.json
+└── yarn.lock
