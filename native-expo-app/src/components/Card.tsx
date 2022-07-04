@@ -6,7 +6,7 @@ export default function Card(props: ViewProps) {
   const theme = useTheme();
 
   return (
-    <View {...other} style={[styles.root, style, { backgroundColor: theme.colors.surface }]}>
+    <View {...other} style={[styles.root, style, { backgroundColor: theme.colors.background }]}>
       {children}
     </View>
   );

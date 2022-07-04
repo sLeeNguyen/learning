@@ -2,12 +2,15 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "baseUrl": ".",
-    "rootDir": "src/",
+    // "rootDir": "src/",
     "paths": {
       "src/*": [
         "./src/*"
       ],
-      "assets/": [
+      "src-chat/*": [
+        "./src-chat/*"
+      ],
+      "assets/*": [
         "./assets/*"
       ]
     },
@@ -23,7 +26,8 @@
     "noEmit": true
   },
   "include": [
-    "src"
+    "src",
+    "src-chat"
   ],
   "exclude": [
     "node_modules",
