@@ -4,14 +4,16 @@
 
 ## Usage
 
-- For development
+### Simple App
 
 ```
   yarn start
 ```
 
-App chat
+### Facebook messenger app
+
 ```
+  yarn start --config=app-chat.json
 ```
 
 ## Problems
