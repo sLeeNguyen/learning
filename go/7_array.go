@@ -24,6 +24,13 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("a: ", a)
+	fmt.Println()
+
+	d := make([]int, 3, 5)
+	fmt.Println("d:", d)
+	e := append(d, 3, 4) // return new slice
+	fmt.Println("e:", e)
+	fmt.Println("d:", d)
 }
 
 func printSlice(s []int) {
